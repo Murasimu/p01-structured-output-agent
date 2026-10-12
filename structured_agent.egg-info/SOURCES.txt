@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+structured_agent/__init__.py
+structured_agent/agent.py
+structured_agent/audit.py
+structured_agent/llm.py
+structured_agent/parser.py
+structured_agent/tools.py
+structured_agent.egg-info/PKG-INFO
+structured_agent.egg-info/SOURCES.txt
+structured_agent.egg-info/dependency_links.txt
+structured_agent.egg-info/requires.txt
+structured_agent.egg-info/top_level.txt
+tests/test_agent.py

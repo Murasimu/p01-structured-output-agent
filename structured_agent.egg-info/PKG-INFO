@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: structured-agent
+Version: 1.0.0
+Summary: Structured-output agent: Pydantic-enforced LLM/tool responses, targeted retries, JSONL validation audit trail
+Requires-Python: >=3.10
+Requires-Dist: pydantic>=2
+Provides-Extra: demo
+Requires-Dist: openai>=1.40; extra == "demo"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"

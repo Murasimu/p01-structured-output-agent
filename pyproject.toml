@@ -1,0 +1,13 @@
+[project]
+name = "structured-agent"
+version = "1.0.0"
+description = "Structured-output agent: Pydantic-enforced LLM/tool responses, targeted retries, JSONL validation audit trail"
+requires-python = ">=3.10"
+dependencies = ["pydantic>=2"]
+
+[project.optional-dependencies]
+demo = ["openai>=1.40"]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
